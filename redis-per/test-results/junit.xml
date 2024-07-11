@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="4.884">
+  <testsuite name="RabbitMQ Connection And MongoDb Connection" errors="0" failures="0" skipped="0" timestamp="2024-07-05T09:21:56" time="4.669" tests="1">
+    <testcase classname="RabbitMQ Connection And MongoDb Connection Check redis Queue should check Health Check" name="RabbitMQ Connection And MongoDb Connection Check redis Queue should check Health Check" time="0.084">
+    </testcase>
+  </testsuite>
+</testsuites>

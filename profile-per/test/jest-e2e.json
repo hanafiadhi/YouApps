@@ -1,0 +1,25 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "^@app/(.*)$": "<rootDir>/../src/$1"
+  },
+  "collectCoverage": true,
+  "coverageDirectory": "./coverage",
+  "coverageReporters": ["json", "lcov", "text", "clover"],
+  "reporters": [
+    "default",
+    [
+      "jest-junit",
+      {
+        "outputDirectory": "./test-results",
+        "outputName": "junit.xml"
+      }
+    ]
+  ]
+}

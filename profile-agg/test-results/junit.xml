@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="15" failures="0" errors="0" time="4.442">
+  <testsuite name="ProfileController" errors="0" failures="0" skipped="0" timestamp="2024-07-10T16:51:56" time="4.307" tests="15">
+    <testcase classname="ProfileController should be defined" name="ProfileController should be defined" time="0.071">
+    </testcase>
+    <testcase classname="ProfileController getProfile should return the user profile" name="ProfileController getProfile should return the user profile" time="0.041">
+    </testcase>
+    <testcase classname="ProfileController getProfile should throw BadRequestException if profile not found" name="ProfileController getProfile should throw BadRequestException if profile not found" time="0.011">
+    </testcase>
+    <testcase classname="ProfileController updateProfile should update the user profile" name="ProfileController updateProfile should update the user profile" time="0.011">
+    </testcase>
+    <testcase classname="ProfileController updateProfile should create a new profile if not existing" name="ProfileController updateProfile should create a new profile if not existing" time="0.019">
+    </testcase>
+    <testcase classname="VolunteerService should be defined" name="VolunteerService should be defined" time="0.003">
+    </testcase>
+    <testcase classname="VolunteerService create should create a new volunteer profile" name="VolunteerService create should create a new volunteer profile" time="0.012">
+    </testcase>
+    <testcase classname="VolunteerService create should throw an error if profile creation fails" name="VolunteerService create should throw an error if profile creation fails" time="0.033">
+    </testcase>
+    <testcase classname="VolunteerService findAll should return all volunteer profiles" name="VolunteerService findAll should return all volunteer profiles" time="0.004">
+    </testcase>
+    <testcase classname="VolunteerService findOne should return a volunteer profile by id" name="VolunteerService findOne should return a volunteer profile by id" time="0.015">
+    </testcase>
+    <testcase classname="VolunteerService findOne should throw NotFoundException if profile not found" name="VolunteerService findOne should throw NotFoundException if profile not found" time="0.045">
+    </testcase>
+    <testcase classname="VolunteerService update should update a volunteer profile" name="VolunteerService update should update a volunteer profile" time="0.007">
+    </testcase>
+    <testcase classname="VolunteerService update should throw an error if profile update fails" name="VolunteerService update should throw an error if profile update fails" time="0.009">
+    </testcase>
+    <testcase classname="VolunteerService remove should remove a volunteer profile by id" name="VolunteerService remove should remove a volunteer profile by id" time="0.009">
+    </testcase>
+    <testcase classname="VolunteerService remove should throw NotFoundException if profile not found" name="VolunteerService remove should throw NotFoundException if profile not found" time="0.006">
+    </testcase>
+  </testsuite>
+</testsuites>

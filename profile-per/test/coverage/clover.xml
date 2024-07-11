@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1720705456341" clover="3.2.0">
+  <project timestamp="1720705456342" name="All files">
+    <metrics statements="16" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="18" coveredelements="16" complexity="0" loc="16" ncloc="16" packages="1" files="2" classes="2"/>
+    <file name="test.module.ts" path="/Users/macbookpro/Documents/youApp/profile-per/test/test.module.ts">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+    </file>
+    <file name="test.service.ts" path="/Users/macbookpro/Documents/youApp/profile-per/test/test.service.ts">
+      <metrics statements="11" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="22" count="0" type="stmt"/>
+      <line num="23" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>

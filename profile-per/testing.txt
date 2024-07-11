@@ -1,0 +1,36 @@
+{"level":"info","message":"setup mogodb with url mongodb://localhost:27017/pdp-volunteer-management?replicaSet=rs0","timestamp":"2024-07-04T09:19:18.607Z"}
+  console.info
+    [0;36mMongoose:[0m volunteer.createIndex({ whatsapp: [33m1[39m }, { partialFilterExpression: { isDeleted: [33mfalse[39m }, unique: [33mtrue[39m, background: [33mtrue[39m})
+
+      at NativeCollection.Object.<anonymous>.NativeCollection.$print (../node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:307:11)
+
+  console.error
+    MongoDB ping failed: TypeError: Cannot read properties of undefined (reading 'admin')
+        at TestService.pingMongoDB (/Users/macbookpro/PlatformDigitalPolitik/volunteer-per/test/test.service.ts:20:36)
+        at Object.<anonymous> (/Users/macbookpro/PlatformDigitalPolitik/volunteer-per/test/app.spec.ts:40:37)
+        at Promise.then.completed (/Users/macbookpro/PlatformDigitalPolitik/volunteer-per/node_modules/jest-circus/build/utils.js:298:28)
+        at new Promise (<anonymous>)
+        at callAsyncCircusFn (/Users/macbookpro/PlatformDigitalPolitik/volunteer-per/node_modules/jest-circus/build/utils.js:231:10)
+        at _callCircusTest (/Users/macbookpro/PlatformDigitalPolitik/volunteer-per/node_modules/jest-circus/build/run.js:316:40)
+        at processTicksAndRejections (node:internal/process/task_queues:95:5)
+        at _runTest (/Users/macbookpro/PlatformDigitalPolitik/volunteer-per/node_modules/jest-circus/build/run.js:252:3)
+        at _runTestsForDescribeBlock (/Users/macbookpro/PlatformDigitalPolitik/volunteer-per/node_modules/jest-circus/build/run.js:126:9)
+        at _runTestsForDescribeBlock (/Users/macbookpro/PlatformDigitalPolitik/volunteer-per/node_modules/jest-circus/build/run.js:121:9)
+        at _runTestsForDescribeBlock (/Users/macbookpro/PlatformDigitalPolitik/volunteer-per/node_modules/jest-circus/build/run.js:121:9)
+        at run (/Users/macbookpro/PlatformDigitalPolitik/volunteer-per/node_modules/jest-circus/build/run.js:71:3)
+        at runAndTransformResultsToJestFormat (/Users/macbookpro/PlatformDigitalPolitik/volunteer-per/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+        at jestAdapter (/Users/macbookpro/PlatformDigitalPolitik/volunteer-per/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+        at runTestInternal (/Users/macbookpro/PlatformDigitalPolitik/volunteer-per/node_modules/jest-runner/build/runTest.js:367:16)
+        at runTest (/Users/macbookpro/PlatformDigitalPolitik/volunteer-per/node_modules/jest-runner/build/runTest.js:444:34)
+
+      21 |       return 'MongoDB ping successful';
+      22 |     } catch (error) {
+    > 23 |       console.error('MongoDB ping failed:', error);
+         |               ^
+      24 |       throw error;
+      25 |     }
+      26 |   }
+
+      at TestService.pingMongoDB (test.service.ts:23:15)
+      at Object.<anonymous> (app.spec.ts:40:37)
+

@@ -23,9 +23,12 @@ every folder that contains the word agg please npm i then npm run start:dev
 ## Running Tests
 
 To run tests, run the following command
+
+```folder yang terdapat unit test
 auth-agg
 profil-agg
 profil-per
+```
 
 ```bash
   npm run test
